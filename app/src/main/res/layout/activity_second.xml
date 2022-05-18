@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#020f1c"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:background="#FFFFFFFF"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/man"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_1" />
+
+        <ImageView
+            android:id="@+id/first_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/first_step"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_2" />
+
+        <ImageView
+            android:id="@+id/second_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/second_step"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_3" />
+
+        <ImageView
+            android:id="@+id/third_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/third_step"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_4" />
+
+        <ImageView
+            android:id="@+id/fourth_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/fourth_step"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_5" />
+
+        <ImageView
+            android:id="@+id/fifth_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/fifth_step"
+            android:paddingTop="0dp"
+            android:src="@drawable/vicilica_6" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#7fc7ff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:translationY="5dp"> </LinearLayout>
+
+    <GridView
+        android:id="@+id/bukva"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#000305"
+        android:horizontalSpacing="5dp"
+        android:numColumns="7"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>

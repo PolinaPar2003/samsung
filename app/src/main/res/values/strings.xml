@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="second_activity">Hangman</string>
+    <string name="man">man</string>
+    <string name="first_step">first_step</string>
+    <string name="second_step">second_step</string>
+    <string name="third_step">third_step</string>
+    <string name="fourth_step">fourth_step</string>
+    <string name="fifth_step">fifth_step</string>
+</resources>

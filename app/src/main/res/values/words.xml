@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>ИНФОРМАТИКА</item>
+        <item>САМСУНГ</item>
+        <item>ЛЮБОВЬ</item>
+        <item>ИСКУССТВО</item>
+        <item>САМОВЫРАЖЕНИЕ</item>
+        <item>ИНТЕРНЕТ</item>
+        <item>АНДРОИД</item>
+        <item>ЯЗЫК</item>
+        <item>КОТЕНОК</item>
+        <item>ЗВУК</item>
+    </string-array>
+</resources>
