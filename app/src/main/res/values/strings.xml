@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hangman</string>
+    <string name="app_name">Виселица</string>
     <string name="second_activity">Hangman</string>
     <string name="man">man</string>
     <string name="first_step">first_step</string>

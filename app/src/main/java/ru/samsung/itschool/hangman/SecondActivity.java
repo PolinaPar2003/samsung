@@ -74,7 +74,7 @@ public class SecondActivity extends AppCompatActivity {
 
             char_views[i].setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
             char_views[i].setGravity(Gravity.CENTER);
-            char_views[i].setTextColor(Color.WHITE);
+            char_views[i].setTextColor(Color.parseColor("#7fc7ff"));
             char_views[i].setBackgroundResource(R.drawable.stroka);
             word_layout.addView(char_views[i]);
         }
@@ -125,11 +125,12 @@ public class SecondActivity extends AppCompatActivity {
 
                 win.show();
             }
-            else if (now_part < number_parts) {
+        }
+        else if (now_part < number_parts) {
                 body_parts[now_part].setVisibility(View.VISIBLE);
                 now_part++;
-            }
-            else{
+        }
+        else{
                 disableBtns();
 
                 AlertDialog.Builder lose = new AlertDialog.Builder(this);
@@ -151,7 +152,7 @@ public class SecondActivity extends AppCompatActivity {
             }
 
             }
-        }
+
 
 
     public void disableBtns() {

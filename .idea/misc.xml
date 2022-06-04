@@ -6,6 +6,7 @@
         <entry key="..\:/Hangman/app/src/main/res/drawable/big_l.xml" value="0.26614583333333336" />
         <entry key="..\:/Hangman/app/src/main/res/drawable/bukva.xml" value="0.26614583333333336" />
         <entry key="..\:/Hangman/app/src/main/res/drawable/bukva_nazh.xml" value="0.26614583333333336" />
+        <entry key="..\:/Hangman/app/src/main/res/drawable/hangman_background.xml" value="0.14322916666666666" />
         <entry key="..\:/Hangman/app/src/main/res/drawable/hh.xml" value="0.26614583333333336" />
         <entry key="..\:/Hangman/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/Hangman/app/src/main/res/drawable/ss.xml" value="0.26614583333333336" />
@@ -13,6 +14,9 @@
         <entry key="..\:/Hangman/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Hangman/app/src/main/res/layout/activity_second.xml" value="0.1793478260869565" />
         <entry key="..\:/Hangman/app/src/main/res/layout/bukva.xml" value="0.1793478260869565" />
+        <entry key="..\:/Hangman/app/src/main/res/mipmap-anydpi-v26/hangman.xml" value="0.14322916666666666" />
+        <entry key="..\:/Hangman/app/src/main/res/mipmap-anydpi-v26/hangman_round.xml" value="0.14322916666666666" />
+        <entry key="..\:/Hangman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14322916666666666" />
       </map>
     </option>
   </component>

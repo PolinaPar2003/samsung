@@ -17,8 +17,9 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:shadowColor="#7fc7ff"
+        android:background="#122faa"
         android:text="Играть"
-        android:textColor="#FFFF0000"
+        android:textColor="#7fc7ff"
         android:translationY="100pt" />
 
 </RelativeLayout>

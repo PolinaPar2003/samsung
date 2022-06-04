@@ -10,9 +10,11 @@ import android.widget.Button;
 public class Bukva extends BaseAdapter {
     private String[] alphabet;
     private LayoutInflater alphabetInf;
+    private SecondActivity act;
 
-    public Bukva(Context c) {
-        alphabet = new String[33];
+    public Bukva(SecondActivity c) {
+        act = c;
+        alphabet = new String[32];
         for (int i = 0; i < alphabet.length; i++) {
             alphabet[i] = "" + (char)(i+'А');
         }
@@ -34,6 +36,12 @@ public class Bukva extends BaseAdapter {
             letterBtn = (Button) convertView;
         }
         letterBtn.setText(alphabet[position]);
+        letterBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                act.bukvaPressed(v);
+            }
+        });
         return letterBtn;
     }
 
